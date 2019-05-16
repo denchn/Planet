@@ -13,6 +13,7 @@
 		650FA20C22433FAC00E28370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650FA20B22433FAC00E28370 /* Assets.xcassets */; };
 		650FA20F22433FAC00E28370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650FA20D22433FAC00E28370 /* LaunchScreen.storyboard */; };
 		650FA21222433FAC00E28370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FA21122433FAC00E28370 /* main.m */; };
+		650FA22C224C97C500E28370 /* PlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FA22B224C97C500E28370 /* PlanetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		650FA20E22433FAC00E28370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650FA21022433FAC00E28370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650FA21122433FAC00E28370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		650FA22A224C97C500E28370 /* PlanetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanetView.h; sourceTree = "<group>"; };
+		650FA22B224C97C500E28370 /* PlanetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				650FA20D22433FAC00E28370 /* LaunchScreen.storyboard */,
 				650FA21022433FAC00E28370 /* Info.plist */,
 				650FA21122433FAC00E28370 /* main.m */,
+				650FA22A224C97C500E28370 /* PlanetView.h */,
+				650FA22B224C97C500E28370 /* PlanetView.m */,
 			);
 			path = PlanetTest;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650FA22C224C97C500E28370 /* PlanetView.m in Sources */,
 				650FA20722433FA900E28370 /* ViewController.m in Sources */,
 				650FA21222433FAC00E28370 /* main.m in Sources */,
 				650FA20422433FA900E28370 /* AppDelegate.m in Sources */,
